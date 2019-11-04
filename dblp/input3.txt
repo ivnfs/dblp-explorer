@@ -1,0 +1,1068 @@
+#*Lessons learned about one-way, dataflow constraints in the Garnet and Amulet graphical toolkits
+#@Bradley T. Vander Zanden,Richard Halterman,Brad A. Myers,Rich McDaniel,Rob Miller,Pedro Szekely,Dario A. Giuse,David Kosbie
+#t2001
+#cACM Transactions on Programming Languages and Systems (TOPLAS)
+#index613181
+#!One-way, dataflow constraints are commonly used in graphical interface toolkits, programming environments, and circuit applications. Previous papers on dataflow constraints have focused on the design and implementation of individual algorithms. In contrast, this article focuses on the lessons we have learned from a decade of implementing competing algorithms in the Garnet and Amulet graphical interface toolkits. These lessons reveal the design and implementation tradeoffs for different one-way, constraint satisfaction algorithms. The most important lessons we have learned are that (1) mark-sweep algorithms are more efficient than topological ordering algorithms; (2) lazy and eager evaluators deliver roughly comparable performance for most applications; and (3) constraint satisfaction algorithms have more than adequate speed, except that the storage required by these algorithms can be problematic.
+
+#*Database programming with Visual Basic.NET
+#@Carsten Thomsen
+#t2001
+#c
+#index613182
+#!Although Database Programming with VisualBasic.NET can be used as a reference book - thanks to its many listings and tables, it's really intended to be a book that any serious VB programmer who needs to do database programming should read cover-to-cover.
+
+#*A commentary on Frank Halasz's "Reflections on NoteCards: Seven Issues for the Next Generation of Hypertext Systems"
+#@Elli Mylonas
+#t2001
+#cACM Journal of Computer Documentation (JCD)
+#index613183
+#%179415
+#%213256
+#%213322
+#%223267
+#%596903
+#!Although hypertext research and development didn't continue exactly in the directions that Frank Halasz predicted in 1988 and 1991, much of his analysis and agenda is still valid. The most interesting development is the shift away from hypertext systems as applications software to either embedded functionality or information structuring. The focus on standards and protocols has led to progress on Halasz's issues and has made hypertext almost universal. On the other hand, the ubiquity of hypertext on the Web is a force that works against some of Halasz's agenda. It is difficult to tailor or extend a hypertext because the task requires knowledge of the tools, the information structures, and the content.
+
+#*Diffusing information in organizational settings: learning from experience
+#@Dave Snowdon,Antonietta Grasso
+#t2002
+#cProceedings of the SIGCHI conference on Human factors in computing systems: Changing our world, changing ourselves
+#index613184
+#%82376
+#%94013
+#%586599
+#!Recommender systems selectively circulate information enriched with comments and feedback based on people's experience. These systems filter information in a semi-automatic and high-quality way in order to support a community during their work or leisure practices. However recommender systems are usually separate tools that require a degree of effort to be used, both when receiving information and to insert new feedback. In this paper we present our informal experiences with the use of multiple user interfaces (interactive large screen, email, paper and PDA) as means to improve the diffusion of information through an organizational unit and to improve access to information stored within an existing recommender system
+
+#*Windows NT Pocket Book, 2nd edition
+#@Steve Heath
+#t1997
+#c
+#index613185
+#!:The Newnes Windows NT Pocket Book is a concise reference for users of the latest version of the Windows NT operating system. With its Windows 95 shell, version 4 is a complete update of Windows NT with new commands, accessories and updates for all of the existing facilities. To help both new and old users' transition to this new environment, it provides both explanations and screenshots to guide and inform. Based on the Newnes Windows NT Pocket Book, it has been completely revised for the introduction of version 4 with all new screen shots and fully updated text. The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*Corel WordPerfect 7 for Windows 95: Enhancing Productivity, 1st edition
+#@Keith Mulbery
+#t1997
+#c
+#index613186
+
+#*Windows NT Server Enterprise Exam Guide
+#@Steve Kaczmarek
+#t1997
+#c
+#index613187
+#!:Windows NT Server 4.0 Enterprise Exam Guide prepares the reader for the Microsoft Certified Professional Windows NT Server 4.0 test (test 70-68) and then serves as a critical reference tool in supporting the Windows NT Server 4.0 environment.Covers all tested areas and includes case study questions to help readers build real-world savvy while studying for the examIncludes "Instructor Notes" on the most important topics and "Study Tips" that help clarify difficult conceptsHolds "Official Microsoft Curriculum" status
+
+#*Towards automatic construction of staged compilers
+#@Matthai Philipose,Craig Chambers,Susan J. Eggers
+#t2002
+#cACM SIGPLAN Notices
+#index613188
+#%82202
+#%86261
+#%93269
+#%124147
+#%162585
+#%219070
+#%235448
+#%266713
+#%286091
+#%287267
+#%296529
+#%366819
+#%596477
+#%604665
+#%606713
+#!Some compilation systems, such as offline partial evaluators and selective dynamic compilation systems, support staged optimizations. A staged optimization is one where a logically single optimization is broken up into stages, with the early stage(s) performing preplanning set-up work, given any available partial knowledge about the program to be compiled, and the final stage completing the optimization. The final stage can be much faster than the original optimization by having much of its work performed by the early stages. A key limitation of current staged optimizers is that they are written by hand, sometimes in an ad hoc manner. We have developed a framework called the Staged Compilation Framework (SCF) for systematically and automatically converting single-stage optimizations into staged versions. The framework is based on a combination of aggressive partial evaluation and dead-assignment elimination. We have implemented SCF in Standard ML. A preliminary evaluation shows that SCF can speed up classical optimization of some commonly used C functions by up to 12&times; (and typically between 4.5&times; and 5.5&times;).
+
+#*Practical Guide to Software Quality Management, 1st edition
+#@John W. Horch
+#t1996
+#c
+#index613189
+#!:This comprehensive new book explains the concept of quality in software design and management, and provides you with the practical advice you need to not only create and implement a total quality software system in your organization, but also to... Â• Evaluate and improve a software quality program Â• Define its purpose, approach, and progress through documentation Â• Demonstrate its value to senior management Written by a recognized expert and world-class lecturer on the subject, the book identifies the 8 major components that make up a solid software quality program. It then analyzes each component separately, addressing in detail its specific role and overall importance to the system. Finally, the author explains how all 8 elements interact and how you can integrate them to strengthen your program. This is the only volume to offer a broad overview of software quality management for the non-expert. It is written in clear, easy-to-understand language and contains a complete glossary that demystifies technical terms, abbreviations, and acronyms. Useful appendices contain example and "starting point" documentation outlines, and an extensive bibliography provides assistance in further research. This guide is essential reading for new software managers, engineers, and analysts who need to quickly familiarize themselves with software quality systems and the benefits, issues, implications, and concerns associated with implementing them.
+
+#*10 Minute Guide to NetScape for Windows
+#@Galen A. Grimes
+#t1995
+#c
+#index613190
+#!:This is the quickest and easiest guide to learning one of the most popular World Wide Web browsers available today. This book covers all the essential features, including using the Internet Directory and other search engines, and more!Covers all the information users need to get up to speed quickly and easilyReaders learn how to send email, use bookmarks, contact servers, and moreIncludes approximately 20 mini-tutorials that can be completed in 10 minutes or less
+
+#*A simple algorithm for computing the inverse of a matrix
+#@S. Sitharama Iyengar,Samuel C. Jordon
+#t1976
+#cProceedings of the 14th annual Southeast regional conference
+#index613191
+#!This paper describes an effective technique of finding the inverse of an n x n nonsingular matrix and a solution to a particular system of linear equations simultaneously. The algorithm described in this paper is a simple, direct process one which can be readily used on digital computers.
+
+#*Voice over IP Networks, 1st edition
+#@Marcus Goncalves
+#t1998
+#c
+#index613192
+#!:Once a guest on telephone lines, the Net now threatens a takeover of its host's principal function: voice-to-voice communications. For intrabusiness use or as a public system, Internet-based telephony can be a real money-saver - or money-maker. In Voice Over IP Networks, you'll learn everything you need to: transmit real-time voices over the Internet; understand the technology and its costs; compare leading vendors and their Internet telephony products - 3Com, Motorola, Lucent, VocalTec, Vienna Systems, Nuera Communications, and more; evaluate advantages of the IPv6 and IPv4 protocols; use RSVP, RTSP, IP Multicast, SONET, ATM, and other technologies for telephony; apply Codecs to voice digitization; emulate T1/E1 trunks; implement a system with appropriate standards; and anticipate trends and new products from innovative companies such as QWest.
+
+#*Solaris 7 Reference
+#@Janice Winsor
+#t1999
+#c
+#index613193
+#!From the Book:PREFACE: PrefaceThe Solaris 7 Reference is your complete guide to all of the manual pages in Section 1, "User Commands," of the online reference documentation (except the FMLI commands).All documentation references within this guide are to the official Solaris documentation. To access Sun Microsystems, Inc., documentation online, see:...
+
+#*An open toolkit for prototyping reverse engineering visualizations
+#@Alexandru Telea,Alessandro Maccari,Claudio Riva
+#t2002
+#cProceedings of the symposium on Data Visualisation 2002
+#index613194
+#%121963
+#%157746
+#%243291
+#%293499
+#%314425
+#%323265
+#%441520
+#%625410
+#!Maintenance and evolution of complex software systems (such as mobile telephones) involves activities such as reverse engineering (RE) and software visualization. Although several RE tools exist, we found their architecture hard to adapt to the domain and problem specific requirements posed by our current practice in Nokia. In this paper, we present an open architecture which allows easy prototyping of RE data exploration and visualization scenarios for a large range of domain models. We pay special attention to the visual and interactive requirements of the reverse engineering process. We compare our toolkit with other existing reverse engineering visual tools and outline the differences.
+
+#*Avionic Systems Design, 1st edition
+#@John R. Newport
+#t1994
+#c
+#index613195
+#!:Avionic Systems Design presents an engineering look at the impact of emerging policies - such as joint service programs and commercial co-developments - designed to broaden market sectors for real-time, embedded systems . It also touches on the different review and specification practices of DoD, NASA, and FAA. The topics cover a complete "how to" overview of the design process, including trade studies, detailed design, and formal reviews. In addition, the discussion links design decisions to a theoretical basis, including architecture integration strategy and communication models. The book also includes performance measurement analysis, interpretation of results, formulation of benchmarks, and numerous examples. Finally, it provides examples of the strategies and effects of requirements analysis and validation. An appendix offers an extensive list of acronyms.
+
+#*A lightweight approach to specification and analysis of role-based access control extensions
+#@Andreas Schaad,Jonathan D. Moffett
+#t2002
+#cProceedings of the seventh ACM symposium on Access control models and technologies
+#index613196
+#%74664
+#%80504
+#%91840
+#%279851
+#%289593
+#%613351
+#!Role-based access control is a powerful and policy-neutral concept for enforcing access control. Many extensions have been proposed, the most significant of which are the decentralised administration of role-based systems and the enforcement of constraints. However, the simultaneous integration of these extensions can cause conflicts in a later system implementation. We demonstrate how we use the Alloy language for the specification of a conflict-free role-based system. This specification provides us at the same time with a suitable basis for further analysis by the Alloy constraint analyser.
+
+#*Web services: building blocks for distributed systems
+#@
+#t2002
+#c
+#index613197
+#!The first practical, hands-on guide to building Web services! Web services are the next breakthrough in distributed computing-enabling any organization to make its digital assets available worldwide with unprecedented ease and convenience. Now, one of the field's leading experts has written the definitive guide to delivering standards-based Web services. Graham Glass presents insights and hands-on examples encompassing every core Web services technology-and offers state-of-the-art guidance for ensuring interoperability among leading platforms.
+
+#*Exploring Technology and Social Space, 1st edition
+#@John MacGregor Wise
+#t1997
+#c
+#index613198
+
+#*Virtual extension
+#@
+#t2002
+#cCommunications of the ACM
+#index613199
+
+#*Design as a minority discipline in a software company: toward requirements for a community of practice
+#@Michael J. Muller,Kenneth Carey
+#t2002
+#cProceedings of the SIGCHI conference on Human factors in computing systems: Changing our world, changing ourselves
+#index613200
+#%77157
+#%82439
+#%247523
+#%289091
+#%322556
+#%439555
+#!This paper provides a description of designers' work practices in a software company. We describe a participatory analysis of the diversity of working relations and roles of designers of IBM's Lotus software products. Designers are an example of a minority discipline - that is, a discipline whose members are often isolated in their work teams among coworkers with different training, backgrounds, and career paths. We explore differences between the practices of designers of Lotus software products and the published reports of design practices in group settings
+
+#*Using HTML
+#@Tom Savola
+#t1995
+#c
+#index613201
+
+#*PERL 5 for Dummies, 1st edition
+#@Idg Publishing
+#t1997
+#c
+#index613202
+#!:Perl is fast becoming the programming language of choice for many wanna-be programmers and systems administrators alike. Find out for yourself why this language is so popular and use Perl 5 For Dummies to begin writing in Perl. You'll see how easy it is to create your own programs in Perl or use any of the hundreds of pre-written programs from the accompanying CD-ROM. You don't need to know a great deal about programming to get started with Perl -- this book shows you everything! Inside, find helpful advice on how to: Figure out Perl object-oriented programs Get files from the Internet by using programs you write Write programs that will process files, monitor disk use, and perform other system administration tasks Create exciting CGI programs for a World Wide Web server Discover how quickly you can write in Perl, even if you don't know other programming languages Process databases and other corporate information with ease Find out where the best Perl sites live on the Internet Explore programs written by Perl programmers all over the world on the accompanying CD-ROM About the CD: Valuable bonus CD includes: Sample code from the book WinZip 6.2 for Windows StuffIt Expander for Macintosh Tools to create Perl code samples from the Internet!
+
+#*Macs for Dummies
+#@David Pogue
+#t1992
+#c
+#index613203
+#!:The Bestselling Mac Book 4 Years Running! "More and more people to Pogue, who has made a cottage industry out of soothing people's fears in the uncharted waters of cyberspace." -- The Washington Post Macs For Dummies, the bestselling Mac book for over four years, is the essential reference for anyone who wants to find out how to get the most out of their Mac. Now, Macs For Dummies introduces you to its completely revised and updated 4th edition so you can get started right away! Bestselling author David Pogue guides novices through multitudes of Mac models and takes the fear out of this silicon gadget. With humor, patience, and almost no hi-tech terminology, David Pogue makes your computer seem logical, friendly, and a blast to use! Join the 1.2 million readers in 15 countries who have embraced Macs For Dummies as their ultimate guide! Inside, Find Out How to... Turn on your computer -- and figure out what to do next Uncover word processing basics like printing, faxing, and how to avoid losing your documents Discover everything worth knowing about Power Macs, Performas, and PowerBooks Pinpoint what you need and what you can throw away on your computer Surf the Internet and access tons of exciting, useful information with ease Uncover neat little shortcuts, hidden pictures, and time-savers Discover do-it-yourself Mac maintenance techniques Get expert insight on printers, modems, and software that can save you money
+
+#*Microsoft FrontPage 97 Unleashed, 2nd edition
+#@William Stanek
+#t1997
+#c
+#index613204
+#!:Stanek offers a comprehensive look at Web publishing with the best product on the market for Web authoring and Web site management. An all-in-one guide to designing, creating, and publishing on the World Wide Web and on Intranet webs with the leading tool on the market.
+
+#*Code migration and program maintainability---a categorical perspective
+#@Alex de V. Garcia,Edward Hermann Haeusler
+#t2001
+#cInformation Processing Letters
+#index613205
+#%210254
+#!When translating existing programs that are under constant mainenance, preserving program maintainability should be a special concern. In spite of its importance, no formal criteria were ever established for guiding translation designers in their task. This paper prosposes a formal criterion that language translations should attend in order to preserve program maintainability.
+
+#*Accounting Principles, 3rd edition
+#@Jerry J. Weygandt
+#t1995
+#c
+#index613206
+#!:Covers the traditional and managerial issues while ensuring that students understand the importance of accounting in the world today. A heavy emphasis is placed on decision making, communication, ethics and critical thinking. The text demonstrates how leading corporations utilize accounting information and gives students a context for the concepts they are learning.
+
+#*Closing the smoothness and uniformity gap in area fill synthesis
+#@Yu Chen,Andrew B. Kahng,Gabriel Robins,Alexander Zelikovsky
+#t2002
+#cProceedings of the 2002 international symposium on Physical design
+#index613207
+#%320257
+#%331920
+#%335004
+#!Control of variability in the back end of the line, and hence in interconnect performance as well, has become extremely difficult with the introduction of new materials such as copper and low-k dielectrics. Uniformity of chemical-mechanical planarization (CMP) requires the addition of area fill geometries into the layout, in order to smoothen the variation of feature densities across the die. Our work addresses the following smoothness gap in the recent literature on area fill synthesis. (1)The very first paper on the filling problem (Kahng et al., ISPD98 [7]) noted that there is potentially a large difference between the optimum window densities in fixed dissections vs. when all possible windows in the layout are considered. (2)Despite this observation, all filling methods since 1998 minimize and evaluate density variation only with respect to a fixed dissection. This paper gives the first evaluation of existing filling algorithms with respect to "gridless" ("floating-window") mode, according to both the effective and spatial density models. Our experiments indicate surprising advantages of Monte-Carlo and greedy strategies over "optimal" linear programming (LP) based methods. Second, we suggest new, more relevant methods of measuring a local uniformity based on Lipschitz conditions, and empirically demonstrate that Monte-Carlo methods are inherently better than LP with respect to the new criteria. Finally, we propose new LP-based filling methods that are directly driven by the new criteria, and show that these methods indeed help close the "smoothness gap".
+
+#*Dreamweaver X/Fireworks X Visual Jumpstart
+#@Ethan Watrall
+#t2000
+#c
+#index613208
+#!:What's the best way to learn a visual program? Visually, of course! Based on Sybex's bestÂ—selling JumpStart books for technical professionals, Dreamweaver 3/Fireworks 3 Visual JumpStart is the perfect way to rapidly master the essentials of both programs. In painless, clear languageÂ—and with abundant illustrationsÂ—this book describes the user interface, important features and tools, and provides stepÂ—byÂ—step instructions for creating professionalÂ—quality Web sites. And, it's packed with timeÂ—saving tips on how to perform common tasks and improve productivity. If you're new to Dreamweaver and Fireworks, this is the place to start! This book focuses on essential tasks, and the informal teaching approach allows you to get up to speed quickly with the skills you need to know and use.
+
+#*On the open problems OQ. 451 and OQ. 530
+#@JÃ³zsef SÃ¡ndor
+#t2001
+#cOctogon Mathematical Magazine
+#index613209
+
+#*Extraction of Visual Features for Lipreading
+#@Iain Matthews,Timothy F. Cootes,J. Andrew Bangham,Stephen Cox,Richard Harvey
+#t2002
+#cIEEE Transactions on Pattern Analysis and Machine Intelligence
+#index613210
+#%471178
+#%588538
+#%598474
+#%599145
+#%613372
+#!The multimodal nature of speech is often ignored in human-computer interaction, but lip deformations and other body motion, such as those of the head, convey additional information. We integrate speech cues from many sources and this improves intelligibility, especially when the acoustic signal is degraded. This paper shows how this additional, often complementary, visual speech information can be used for speech recognition. Three methods for parameterizing lip image sequences for recognition using hidden Markov models are compared. Two of these are top-down approaches that fit a model of the inner and outer lip contours and derive lipreading features from a principal component analysis of shape or shape and appearance, respectively. The third, bottom-up, method uses a nonlinear scale-space analysis to form features directly from the pixel intensity. All methods are compared on a multitalker visual speech recognition task of isolated letters.
+
+#*Using Quicken 6 for DOS
+#@Linda A. Flanders
+#t1992
+#c
+#index613211
+
+#*Services in Distributed and Networked Environments, 1st Workshop (Sdne '94)
+#@IEEE Computer Society Press
+#t1994
+#c
+#index613212
+
+#*Law of Defamation and the Internet
+#@Matthew Collins
+#t2001
+#c
+#index613213
+
+#*Red Hat Linux Installation and Configuration Handbook with CD-ROM
+#@Duane Hellums
+#t1999
+#c
+#index613214
+#!:Red Hat Installation and Configuration Handbook uses a building-block approach to segregate the basic installation and configuration steps from the intermediate and advanced topics. It focuses on getting you up and running with Linux as quickly as possible. This book is broken down into five sections aimed at presenting Red Hat Linux in a logical, progressive order reflecting what most Linux users would experience over the lifecycle of a Linux system. Learn to install Red Hat Linux on a PC, Alpha, Sparc, and laptop. Customize and configure various parts of the Red Hat system to get the most out of its basic capabilities. See how to exploit advanced functions of the Red Hat system, upgrade and configure software and hardware components, and much more. Written by an Information Systems technology consultant specializing in Linux and UNIX Offers focused coverage on installation and configuration of Linux programs, hardware, and software CD-ROM contains Red Hat Linux 6.0
+
+#*How to Program a Virtual Community
+#@Michael J. Powers
+#t1997
+#c
+#index613215
+#!:A virtual community is an online space where people interact in a social sense. Using easy-to-understand directions and practical examples, Webmasters will learn how to successfully create these communities on their sites, and master expert tips and tricks that will bring people back to their site again and again.Easy, step-by-step instructions for the most popular solutions in text, 2D, and 3DShows readers how to create multi-user environments for their Web sites-in detailIncludes a multi-user companion Web site to encourage online discussions
+
+#*Writing with WordPerfect, 1st edition
+#@Marcia Peoples Halio
+#t1996
+#c
+#index613216
+
+#*The Windows NT Web Server Book: Tools and Techniques for Building Your Own Internet Information Site, 1st edition
+#@Larry Budnick
+#t1995
+#c
+#index613217
+#!:With this how-to guide, businesses using Windows can step up to a Windows NT server, add the necessary WWW server software, connect to the Internet using software included with Windows NT, and become a global product provider. it is a complete toolkit for providing services on the Internet using Windows NT.
+
+#*Oracle 7 & Client/Server Computing (Mastering), 2nd edition
+#@Steve Bobrowski
+#t1996
+#c
+#index613218
+#!:Mastering Oracle7 and Client/Server Computing is designed for developers, database administrators, and managers who rely on Oracle7, the definitive client/server technology. Comprehensive, up-to-date coverage spans all releases of Oracle7, including Release 7.3. Inside you'll find:. A practical introduction to client/server computing. Understand and maximize the capabilities of client, server, and network. Complete coverage of database administration topics. Master Server Manager and SQL*Loader. Create Oracle databases, manage database space, and control server availability. Configure the server for client/server use. Handle system security, support client applications, and configure Oracle's Parallel Query option. Comprehensive treatment of client/server application development, including application tuning, centralized application logic, and application security. A start-to-finish tutorial on rapid application development, using Oracle's Designer/2000 CASE (computer-aided software engineering) tools. You'll also find coverage of quick reference tables on SQL commands, SQL functions, and data dictionary views. The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*Shape-based retrieval of similar subsequences in time-series databases
+#@Sang-Wook Kim,Jeehee Yoon,Sanghyun Park,Tae-Hoon Kim
+#t2002
+#cProceedings of the 2002 ACM symposium on Applied computing
+#index613219
+#%81009
+#%81062
+#%144427
+#%222169
+#%285218
+#%313895
+#%323479
+#%357613
+#%358818
+#%365833
+#%378625
+#%381905
+#%449690
+#%555435
+#%627272
+#!This paper deals with the problem of shape-based retrieval in time-series databases. The shape-based retrieval is defined as the operation that searches for the (sub)sequences whose shapes are similar to that of a given query sequence. In this paper, we propose an effective and efficient approach for shape-based retrieval of subsequences. We first introduce a new similarity model for shape-based retrieval that supports various combinations of transformations such as shifting, scaling, moving average, and time warping. For efficient processing of the shape-based retrieval, we also propose the indexing and query processing methods. To verify the superiority of our approach, we perform extensive experiments with the real-world S&P 500 stock data. The results reveal that our approach successfully finds all the subsequences that have the shapes similar to that of the query sequence, and also achieves significant speedup over the sequential scan method.
+
+#*Design and Implementation of Symbolic Computation Systems: International Symposium, Disco '93, Gmunden, Austria, September 1993: Proceedings
+#@Alfonso Miola
+#t1993
+#c
+#index613220
+
+#*Software Law: A User-Friendly Legal Guide for Software Developers, with Disk
+#@Todd F. Bassinger
+#t1997
+#c
+#index613221
+
+#*Highly parallel and energy-efficient exhaustive minimum distance search engine using hybrid digital/analog circuit techniques
+#@Chang Ki Kwon,Kwyro Lee
+#t2001
+#cIEEE Transactions on Very Large Scale Integration (VLSI) Systems
+#index613222
+#%86398
+#%241893
+#%587700
+#!A minimum distance search engine (MDSE) is presented as a hardware accelerator for various exhaustive pattern-matching systems. This chip executes highly parallel computations of L1 -norms between an input query and stored multiple reference records, and searches for the minimum distance among them in a highly parallel fashion. Our architectural-level estimation shows that this MDSE can reduce energy dissipation by orders of magnitude as the number of records increases, compared with the conventional systems. We have designed a prototype 4-bit 8-word MDSE composed of merged memory logic (MML) and digital/analog-mixed winner-take-all circuit (DAM-WTAC) by using hybrid digital/analog circuit techniques. It was fabricated with a 0.6-&mgr;m single-poly triple-metal CMOS technology. Experimental results show that our chip works properly at 3 V/10 MHz and has approximately four times larger throughput as well as four times higher energy efficiency, compared with the existing 8-bit microcontrollers.
+
+#*Course Ilt: FileMaker Pro 5.0
+#@CORPORATE Course Technology Staff
+#t2001
+#c
+#index613223
+
+#*More secrets of consulting: the consultant's tool kit
+#@Gerald M. Weinberg
+#t2002
+#c
+#index613224
+#!Widely acclaimed as a consultant's consultant, Gerald M. Weinberg builds on his perennial best-seller The Secrets of Consulting with all-new laws, rules, and principles. You'll learn how to fight burnout, stay curious, understand your clients, negotiate effectively, and much, much more. Consultants need more than technical skillsthey need self-awareness and a strong set of personal abilities. Weinberg helps computer consultants identify and strengthen each aspect of their performance using a "consultant's tool kit" of seventeen memorable symbols. He devotes a chapter to each of these symbolic tools, from The Wisdom Box to The Fish-Eye Lens to The Oxygen Mask
+
+#*The Internet Phone Connection: With Cdrom, 1st edition
+#@Cheryl Kirk
+#t1996
+#c
+#index613225
+#!:Author Cheryl Kirk explains what you'll need to start placing online calls, and provides a feature-by-feature comparison of the products you can choose from. Numerous real-life scenarios clearly illustrate the basics of using an Internet phone, from installing the software, to chatting with friends and relatives, through more advanced business applications. Plus, the companion CD-ROM is loaded with over 50MB of fully functional versions of top Internet phone technology products, and demo versions of many more - so you can start making calls today! You'll find all the answers to your questions about Internet phone technology: How are people using Internet phones? Is it possible to save money using an Internet phone? What software and hardware will I need? What's the cheapest and best product? What does the future hold for Internet technology? Shortcuts, hidden features, and optimizing tips and techniques round out a guide that's so complete - you might never pick up a telephone again!
+
+#*Data Warehousing for Dummies, 1st edition
+#@Alan R. Simon
+#t1997
+#c
+#index613226
+#!:Data warehousing is a valuable, proven approach to providing business users at all levels of an organization with the information they need to make high-impact decisions -- only if the right technologies, architecture, and techniques are used. Data Warehousing For Dummies is the down-to-earth, no-hype reference that covers everything you need to know about data warehousing in today's technology -- and even tomorrow's. From the different types of tools that exist to the steps you use to develop a data warehouse, this book has it all! Inside, find helpful advice on how to Choose the right architecture and approach for your data warehouse Select data warehousing technologies and products Correctly and efficiently analyze data sources and choose what should be in your data warehouse Bring external data into your data warehouse Build a winning development team for your data warehousing project Look ahead to tomorrow's data warehousing technology and what it means for your project
+
+#*Advanced Lotus 1-2-3/R2.4 for Business
+#@Phillips
+#t1993
+#c
+#index613227
+
+#*The ABC's of Making Money Online
+#@Ray Boileau
+#t1999
+#c
+#index613228
+
+#*Learn Generic CADD 6.0 in a Day/Book and Disk, 25th edition
+#@Ralph Grabowski
+#t1992
+#c
+#index613229
+
+#*Inferring the environment in a text-to-scene conversion system
+#@Richard Sproat
+#t2001
+#cProceedings of the 1st international conference on Knowledge capture
+#index613230
+#%312718
+#%586947
+#!There has been a great deal of work over the past decade on inferring semantic information from text corpora. This paper is another instance of this kind of work, but is also slightly different in that we are interested not in extracting semantic information per se, but rather real-world knowledge. In particular, given a description of a particular action --- e.g. John was eating breakfast --- we want to know where John is likely to be, what time of day it is, and so forth. Humans on hearing this sentence would form a mental image that makes a lot of inferences about the environment in which this action occurs: they would probably imagine someone in their kitchen in the morning, perhaps in their dining room, seated at a table, eating a meal.We propose a method that makes use of Dunning's likelihood ratios to extract from text corpora strong associations between particular actions and locations or times when those actions occur. We also present an evaluation of the method. The context of this work is a text-to-scene conversion system called WordsEye, where in order to depict an action such as John was eating breakfast, it is desirable to make reasonable inferences about where and when that action is taking place so that the resulting picture is a reasonable match to one's mental image of the action.
+
+#*Excel for Windows 95 Clear and Simple
+#@Stephen Morris
+#t1996
+#c
+#index613231
+#!:If you need to produce spreadsheets, charts, and graphs, and want to get the job done, quickly and efficiently, this book is for you. The author's self-teaching approach will give you results fast.
+
+#*Knowledge extraction from reinforcement learning
+#@Ron Sun
+#t2002
+#cNew learning paradigms in soft computing
+#index613232
+#%515767
+#%517790
+#%531225
+#!This chapter is concerned with knowledge extraction from reinforcement learners. It addresses two approaches towards knowledge extraction: the extraction of explicit, symbolic rules from neural reinforcement learners, and the extraction of complete plans from such learners. The advantages of such knowledge extraction include (1) the improvement of learning (especially with the rule extraction approach), and (2) the improvement of the usability of results of learning.
+
+#*Mechanism design with incomplete languages
+#@Amir Ronen
+#t2001
+#cProceedings of the 3rd ACM conference on Electronic Commerce
+#index613233
+#%114355
+#%283315
+#%285915
+#%291918
+#%300464
+#%318500
+#%320779
+#!A major achievement of mechanism design theory is the family of truthful mechanisms often called VCG (named after Vickrey, Clarke and Groves). Although these mechanisms have many appealing properties, their essential intractability prevents them from being applied to complex problems like combinatorial auctions. In particular, VCG mechanisms require the agents to fully describe their valuation functions to the mechanism. Such a description may require exponential size and thus be infeasible for the agents.A natural approach for this problem is to introduce an intermediate language for the description of the valuations. Such a language must be succinct to both the agents and the mechanism. Unfortunately, the resulting mechanisms are neither truthful nor do they satisfy individual rationality.This paper suggests a general method for overcoming this difficulty. Given an intermediate language and an algorithm for computing the results, we propose three different mechanisms, each more powerful than its predecessor, but also more time consuming. Under reasonable assumptions, the results of our mechanisms are at least as good as the results of the algorithm on the actual valuations. All of our mechanisms have polynomial computational time and satisfy individual rationality.
+
+#*Anatomy of a PC: A Step-by-Step, Photo-Illustrated Guide to Building Your Own PC
+#@William E. Steinman
+#t1999
+#c
+#index613234
+
+#*Lycos Personal Internet Guide
+#@Michael Miller
+#t1998
+#c
+#index613235
+#!:As with America Online, portal sites like Lycos are seeing increased traffic as a one-stop shop for work, entertainment and Web site hosting. Coupled with an AT&T partnership, you have a full service. The Lycos Personal Internet Guide is your handbook to utilizing this service. From having your questions answered to finding how your stocks are performing, the Lycos service provides the key and your Lycos Personal Internet Guide shows the way.You will learn how to install and configure both an ISP and browser, learn the ins and outs of the Lycos service, find and download information and software, shop, find a job, take a trip, and even start your own Web site with the Tripod service. It's all here, and easy to use with the Lycos Personal Internet Guide. The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*Network Security and Firewalls Conference 4 (1997): Proceedings
+#@Pete Cafarchio
+#t1998
+#c
+#index613236
+#!:Papers included: recommendations for securing publicly accessible devices; towards secure executable content: Java security; Zen & the art of Internet security; building a safe virtual private network; evaluating intrusion detection for the future; large scale remote intrusion detection, & more. The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*No Bugs!: Delivering Error-Free Code in C and C++
+#@David Thielen
+#t1992
+#c
+#index613237
+#!:Every week the computer industry press is filled with stories of bug-ridden software releases that threaten to ruin a software company's reputation. No Bugs! offers a revolutionary approach to solving this problem by showing programmers how to write error-free code from the start. Experienced software developer David Thielen reveals a series of tricks that you can include in a program to warn off the presence of bugs. All are designed to be quick and easy to implement so that you can shorten the amount of time needed to complete and test your programs. All coding is done in C, C++, and assembly language, and all examples are fully functional. The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*Performance of a new Bluetooth scatternet formation protocol
+#@Ching Law,Amar K. Mehta,Kai-Yeung Siu
+#t2001
+#cProceedings of the 2nd ACM international symposium on Mobile ad hoc networking computing
+#index613238
+#%82354
+#%254204
+#%313739
+#%319128
+#%331830
+#%613238
+#!A Bluetooth ad hoc network can be formed by interconnecting piconets into scatternets. The constraints and properties of Bluetooth scatternets present special challegnes in forming an ad hoc network efficiently. In this paper, we evaluate the performance of a new randomized distributed Bluetooth scatternet formation protocol. Our simulations validate the theoretical results that our scatternet formation protocol runs in O(log n) time and sends O(n) messages. The scatternets formed have the following properties: 1) any device is a member of at most two piconets, and 2) the number of piconets is close to be optimal. These properties can avoid overloading of any single device and lead to low interference between piconets. In addition, the simulations show that the scatternets formed have O(log n) diameter. As an essential part of the scatternet formation protocol, we study the problem of device discovery: establishing multiple connecitons with many masters and slaves in parallel. We investigate the collision rate and time requirement of the inquiry and page processes. Deducing from the simulation results of scatternet formation and device discovery, we can verify that the total number of packets sent is O(n) and demonstrate that the maximum number of packets sent by any single device is O(log n). At last, we give estimates of the total time requirement of the protocol and suggest further improvements
+
+#*Word Processing: Concepts and WordPerfect Applicatins, 1st edition
+#@Mona J. Casady
+#t1995
+#c
+#index613239
+
+#*From Access to SQL Server
+#@Russell Sinclair
+#t2000
+#c
+#index613240
+#!:- Teaches how to avoid hidden problems and "gotchas" associated with migration from Access to SQL Server - Learn the differences between these two systems and how Microsoft Access interfaces with SQL Server - Covers Microsoft Access 97 and 2000 and Microsoft SQL Server 6.5 and 7 Microsoft Access has become the most popular desktop database program for software development. However, many programmers have encountered limitations with the program and are choosing to migrate their databases to SQL Server. This process is fraught with hidden problems that many developers do not expect. In this book Sinclair teaches Access developers what they need to know about SQL Server. He includes detailed information on how to work with SQL Server outside of the Access environment and how to design efficient SQL Server databases. The author also discusses the planning that should go into a database migration and decisions that need to be made along the way. Author Biography: Russell Sinclair is a Senior Programmer with Questica, Inc., a company specializing in software for the customized machinery manufacturing industry. Sinclair is a frequent contributor to Smart Access, and has extensive experience in Access and SQL Server development.
+
+#*World Intelligent Materials Handling Markets: Installation of Modular Designs and Integrated Systems on the Rise
+#@CORPORATE Market Intelligence Staff
+#t1993
+#c
+#index613241
+
+#*E-Mail and the Internet for Grannies: Using America Online
+#@Javad Saffarzadeh
+#t2000
+#c
+#index613242
+
+#*Mathematics: A Discrete Introduction
+#@Edward R. Scheinerman
+#t2000
+#c
+#index613243
+#!:This book is an introduction to mathematicsÂ—in particular, it is an introduction to discrete mathematics. There are two primary goals for this book: students will learn to reading and writing proofs, and students will learn the fundamental concepts of discrete mathematics.
+
+#*Freebsd Handbook: Network Configuration
+#@FreeBSD Documentation Project
+#t2000
+#c
+#index613244
+#!:FreeBSD is an advanced BSD UNIX operating system for "PC-compatible" computers, developed and maintained by a large team of individuals. FreeBSD offers advanced networking, performance, security and compatibility features that are still missing in other operating systems, even some of the best commercial ones.FreeBSD Handbook Part III: Network Configuration is one of a series of books from iUniverse.com that provide a printed version of the BSD Handbook, an online guide that covers the installation and day to day use of FreeBSD Release 4.0. The four-part series from iUniverse.com contains the full text of the FreeBSD Handbook, and is comprised of the following four volumes. Each volume is available separately for your convenience. Part I: Getting Started Part II: System Administration Part III: Network Configuration Parts IV and V: Advanced Topics & Appendices
+
+#*High-Speed Fiber Networks and Channels
+#@K. Annamalai
+#t1992
+#c
+#index613245
+
+#*Components
+#@
+#t2001
+#cProceedings of the 8th European software engineering conference held jointly with 9th ACM SIGSOFT international symposium on Foundations of software engineering
+#index613246
+
+#*Build Your Own Multimedia PC with CD ROM
+#@Aubrey Pilgrim
+#t1993
+#c
+#index613247
+
+#*Professional software development with Visual C++ 6.0 & MFC
+#@
+#t2002
+#c
+#index613248
+#!Learn to develop commercial-quality softare with Microsoft's Visual C++ 6.0 and MFC (Microsoft Foundation Class) through practical approaches and techniques used by professional developers. By following step-by-step, handes-on examples, programmers develop complete applications and learn how to integrate these techniques into their own software projects. All of the examples covered can be used immediately or easily modified to meet a variety of programming challenges. In addition to a thorough coverage of MFC for Visual C++ 6.0 and a survey of the new Microsoft .NET platform, the book introduces Microsoft's new Visual C++ 7.0, C# language, and the VisualStudio.NET development environment.
+
+#*Developing enterprise Java applications with J2EE and UML
+#@
+#t2001
+#cAddison-Wesley Object Technology Series
+#index613249
+#!Developing Enterprise Java Applications with J2EE and UML examines the best ways to jointly leverage these technologies. Exploring concrete methods for completing a successful development project, the authors cover the use of UML and J2EE in detail. Using practical examples and a case study, they illustrate the pros and cons of specific design approaches, show how personal experience can affect design decisions, and demonstrate proven approaches for building better software faster.
+
+#*Oracle8 Architecture, 1st edition
+#@Bobrowskis
+#t1997
+#c
+#index613250
+#!:Working directly with Oracle's Oracle8 development team, Steve Bobrowski has unwrapped the secrets of this next-generation server - and its highly advanced object-relational architecture. In this officially endorsed book, he shares his unique perspective of Oracle8's architecture and provides guidance you won't find anywhere else. What's more, every page has been technically reviewed and approved by top Oracle experts to ensure the highest quality of information. Discover revealing insider information on Oracle8 as you understand how Oracle8 fits into the world of serious data management applications, explore the software architecture of Oracle8, come to understand both the concept and the technical details you'll need to know to successfully work with Oracle8, and gain solid, intelligent advice - not speculation - from the author who was there during Oracle8's development.
+
+#*Official Advanced PowerBuilder 6.0: The Definitive Guide, 1st edition
+#@Kouros Gorgani
+#t1997
+#c
+#index613251
+#!From the Book: Official Advanced PowerBuilder 6: The Definitive Guide is a new and different approach to this powerful program Official Advanced PowerBuilder 6: The Definitive Guide is a new and different approach to this powerful program. I have tried to construct this book in a fashion that provides a comprehensive look into the features of PowerBuilder 6. It was not my intention to offer a replacement for the PowerBuilder documentation, but rather to provide an additional resource to help you extend your knowledge base, become more proficient, and even exceed your goals. PowerBuilder has so many features and so much potential for enhancing your applications that it can be quite overwhelming to try to master them all at once. Therefore, in this book I have tried to cover PowerBuilderÂ’s features in a way that allows you to focus specifically on information most appropriate and timely for your particular needs. I am assuming that you are somewhat familiar with PowerBuilder. However, if you are a newcomer to the program, this book will introduce you to the concepts behind client/server development and to the most efficient ways of using PowerBuilder to develop and deploy GUI applications. On the other hand, if you are an advanced developer, youÂ’ll probably be particularly interested in finding solutions to problems and scenarios youÂ’ve frequently encountered in your applications. I have divided this book into seven parts. Part I basically provides an overview on PowerBuilder and defines some of the industry buzzwords. Part II gets into the development phase; IÂ’ve covered some of the most common objects and classes used during development, including windows, controls, DataWindows, User objects, printing, SQL, and debugging. Part III discusses more advanced topics such as external interfaces, dynamic DataWindows, OLE, MAPI, and version control. In Part IV, I have described database connectivity in detail. YouÂ’ll learn about ODBC, PowerBuilderÂ’s database interfaces, Sybase SQL Anywhere, and the Adaptive Server Enterprise. Part V covers creating executables, as well as deploying and executing your applications. Part VI is all about administration: youÂ’ll learn performance and fine-tuning tips, how to use Data Pipeline objects, and how to create Help files. Part VII, the final part, is a comprehensive section, focusing on distributed computing, building Web servers, PFCs, internationalization, other class libraries, and various third-party and Sybase tools. In a nutshell, most PowerBuilder features are explored in great detail. I wanted this book to be a technical session between you and me, so I have tried to get straight to the point and have skipped some of the basics. I have also had the benefit of input from four of SybaseÂ’s Senior Technical Consultants, who assisted with various chapters of the book. All in all, I think youÂ’ll find this book friendly, readable, filled with juicy tidbits, and packed with information that can be used in a real enterprise application. I hope you enjoy reading it as much as I have enjoyed writing it. The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*Database machines
+#@Stanley Y. W. Su,P. Bruce Berra,Paul Fisher,Hsu Chang,Stuart Schuster,George Copeland
+#t1978
+#cProceedings of the 1978 ACM SIGMOD international conference on management of data
+#index613252
+#!There is much to be said on the limitations of the conventional Von Neumann processors and the available hardware organizations for database applications. Through research and development, several recent efforts have been in the investigation and development of new architectures and special prupose machines for supporting database applications. This panel aims to familiarize the attendants with 1) the motivations for works on data machines, 2) the objectives and characteristics of several categories of database machines, 3) the accomplishments made in this area of research and development, 4) the problems and current issues confronting the area, and 5) the impact of the current and future technologies on database management.
+
+#*Technical Tips: Release 3 and 4, 1st edition
+#@Michele Bousquet
+#t1994
+#c
+#index613253
+#!:Turn your IBM-PC or compatible personal computer into a professional design and animation studio. With LINKS to Presentation Graphics: 3D Studio Version 3 you'll learn to use 3D Studio's full-featured 3D modeler, fast renderer, and flexible keyframe animator that imparts smooth motion to objects, cameras, and lights while supporting 3D morphing. Everything you need is in this box - from full-function 3D Studio Version 3 software to a complete suite of tutorials, workbooks, and reference manuals. You'll be producing 3D models of up to 25,000 vertices in no time. Instructions for combining files to create larger models are also included.
+
+#*Paul Mcfedries' Microsoft Office 97, with CD-ROM (Unleashed)
+#@Paul McFedries
+#t1997
+#c
+#index613254
+#!:Microsoft Office 97 1998 Edition Unleashed, Professional Reference Edition will teach the user advanced topics such as the VBA language common to Excel, Access, and now Word, how to use binders, a crash course in the Active Document technology, new Internet and intranet tools, and the integration of scheduling and communications in Outlook.This book will show the reader how to turn the Office suite into a fully integrated business powerhouse and Internet and intranet publishing toolFocuses on sharing of information across applications and networks, not just using the applicationsMicrosoft is the largest suite producer in the market today, with more than 22 million users
+
+#*The Message Is the Medium: Online All the Time for Everyone
+#@Tom Koch
+#t1996
+#c
+#index613255
+#!:The Message is the Medium is both a radical reevaluation and a new approach to understanding online data and information systems, - the "Information Highway." It is not another "how-to" guide, although it does contain practical and instructional data. Rather, it offers a general tutorial explaining the system-at-large from the perspective of the user, and the data he or she needs to resolve problems and crises. It thus provides a simple, powerful, and unique explanation to online resources: what they are and what they do for the individual. All chapters are illustrated. The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*Focus on embedded systems: Embedded Linux at Javaone
+#@Rick Lehrbaum
+#t2001
+#cLinux Journal
+#index613256
+
+#*Keeping coherence among web sources
+#@F. Arcieri,G. Melideo,E. Nardelli,M. Talamo
+#t2001
+#cProceedings of the 3rd international workshop on Web information and data management
+#index613257
+#%266759
+#%294408
+#%329244
+#%357354
+#%359284
+#%367596
+#%367695
+#%570673
+#!With the increasing popularity of the Web the problem of maintaining coherence of information contained in a vast collection of semantically related web pages has become a significant challenge. A fundamental issue is that an object exposed on a web page is independently and autonomously managed by the organizational unit responsible for its production and controlling the way it changes, but the same object is also needed (and visible) at web pages managed by different and independent organizational units. The aim is therefore to define a flexible but effective mechanism to automatically keep the representations of the same piece of information aligned in the various web pages.In this paper we discuss a formal model supporting this goal, which derives from practical experiences and from their formalization in the area of supporting coherence maintenance in the underlying legacy databases of cooperating organizations.
+
+#*Experiences with Web squirrel: my life on the information farm
+#@Rosemary Michelle Simpson
+#t2001
+#cProceedings of the 12th ACM conference on Hypertext and Hypermedia
+#index613258
+#%226403
+#%531614
+#!Previous work has shown that spatial hypertext is a useful information management tool for dynamically changing environments where it is necessary to model emergent and volatile information structures. This paper describes several years of experience using Eastgate Systems' Web Squirrel, a spatial bookmark manager, as a member of a suite of information management tools. It works together in conjunction with word processing, database, and index generation tools to provide a rich and effective Web-based working environment. Some its contributions include: information visualization, organization, and management, the avoidance of premature linking, and creativity support.
+
+#*Wireless: Strategically Liberalizing the Telecommunications Market
+#@Brian J. W. Regli
+#t1997
+#c
+#index613259
+
+#*PIC: Your Personal Introductory Course
+#@John Morton
+#t1998
+#c
+#index613260
+#!:This book guides a PIC user from their first sight of a PIC microcontroller to making the PIC work in the real world. Detailed examples show just how powerful and useful a PIC can be. Explanations are short and simple enough to let a reader get to grips with the PIC without fuss.
+
+#*Automating with Step 7 in Lad: Simatic S 7-300/400 Programmable Controllers
+#@Hans Berger
+#t1999
+#c
+#index613261
+#!:This book describes elements and applications of the graphic-oriented LAD (ladder diagram) programming language for use with both SIMATIC S7-300 and SIMATIC S7-400. It is aimed at all users of SIMATIC S7 programmable controllers. First-time users will be introduced to the field of programmable logic control, whereas advanced users will learn about specific applications of SIMATIC S7 programmable controllers. The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*New Telecommunications: A Political Economy of Network Evolution
+#@Robin E. Mansell
+#t1994
+#c
+#index613262
+
+#*Business Law on the Internet
+#@O. Hance
+#t1997
+#c
+#index613263
+
+#*Hatching and shading
+#@
+#t2002
+#cProceedings of the 2nd international symposium on Non-photorealistic animation and rendering
+#index613264
+
+#*Decentralized optimal traffic engineering in the internet
+#@Constantino Lagoa,Hao Che
+#t2000
+#cACM SIGCOMM Computer Communication Review
+#index613265
+#%219966
+#%477986
+#!Distributed optimal traffic engineering in the presence of multiple paths has been found to be a difficult problem to solve. In this paper, we introduce a new approach in an attempt to tackle this problem. This approach has its basis in nonlinear control theory. More precisely, it relies on the concept of Sliding Modes. We develop a family of control laws, each of them having the property that the steady-state network resource allocation yields the maximum of the given utility function, subject to the network resource constraints. These control laws not only allow each ingress node to independently adjust its traffic sending rate but also provide a scheme for optimal traffic load redistribution among multiple paths. The only nonlocal information needed is binary feedback from each congested node in the path. Moreover, the algorithms presented are applicable to a large class of utility functions, namely, utility functions that can be expressed as the sum of concave functions of the sending rates. We show that the technique can be applied not only to rate adaptive traffic with multiple paths, but also to assured service traffic with multiple paths. Preliminary case studies show that this technique is potentially very useful for optimal traffic engineering in a multiple-class-of-service and multiple-path enabled Internet, e.g., differentiated services enabled multi-protocol label switching networks.
+
+#*Solaris Advanced System Administrator's Guide, 2nd edition
+#@Janice Winsor
+#t1997
+#c
+#index613266
+#!:The experienced Solaris system administrator will find this step-by-step guide to advanced tasks extremely helpful.
+
+#*MacIntosh Hard Disk Companion
+#@J. Russell Roberts
+#t1992
+#c
+#index613267
+
+#*The Internet Research Guide: A Concise, Friendly, and Practical Handbook for Anyone Researching in the Wide World or Cyberspace
+#@Timothy K. Maloy
+#t1996
+#c
+#index613268
+#!:The Internet Research Guide takes a practical and friendly approach to information hunting in cyberspace. It illustrates the principles behind fast and effective Internet research, and includes tips on finding an Internet provider; a guide to commercial on-line services; the essentials for navigating on the Internet, including understanding URLs, browsers, and other Net features like e-mail, Usenet, and Listservs; case studies of search techniques; reviews of top sites and appropriate links for a wide variety of subjects; expert advice from professionals using the Internet; a glossary; and a basic guide to understanding HTML and setting up a Web page. The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*OntoMap: portal for upper-level ontologies
+#@Atanas Kiryakov,Kiril Iv. Simov,Marin Dimitrov
+#t2001
+#cProceedings of the international conference on Formal Ontology in Information Systems - Volume 2001
+#index613269
+#%370095
+#%374253
+#!Currently the evaluation of the feasibility of general-purpose ontologies and upper-level models is expensive mostly because of technical problems such as different representation formalisms and terminologies used. Additionally, there are no formal mappings between the upper-level ontologies that could ease any kind of studies and comparisons. We present the OntoMap Project (http://www.OntoMap.org), a project with the pragmatic goal to facilitate the access, understanding, and reuse of such resources. A semantic framework on the conceptual level is implemented that is small and easy enough to be learned on-the-fly. We tried to design the framework so that it captures most of the semantics usually encoded in upper-level models. Technically, OntoMap is a web-site providing access to several upper-level ontologies and manual mapping between them.
+
+#*Coupling of the interface tracking and the two-fluid models for the simulation of incompressible two-phase flow
+#@Gregor ÄŒerne,Stojan Petelin,Iztok Tiselj
+#t2001
+#cJournal of Computational Physics
+#index613270
+
+#*Similarity search in metric databases through hashing
+#@Claudio Gennaro,Pasquale Savino,Pavel Zezula
+#t2001
+#cProceedings of the 2001 ACM workshops on Multimedia: multimedia information retrieval
+#index613271
+#%383510
+#%613634
+#!A novel access structure for similarity search in metric databases, called Similarity Hashing (SH), is proposed. It is a multi-level hash structure, consisting of search-separable bucket sets on each level. The structure supports easy insertion and bounded search costs, because at most one bucket needs to be accessed at each level for range queries up to a pre-defined value of search radius. At the same time, the pivot-based strategy significantly reduces the number of distance computations. Contrary to tree organizations, the SH structure is suitable for distributed and parallel implementations.
+
+#*Control Engineering
+#@E. A. Parr
+#t1996
+#c
+#index613272
+#!:The topic of process control can become very mathematical, and most books cover the topic from a mainly theoretical point of view. This book, which is based on the third volume of the encyclopedic Industrial Control Handbook, presents the mathematics in a readable manner, and is written as far as possible from a practical aspect.
+
+#*Year 2000 Compliance: A Guide to Successful Implementation
+#@Alea Fairchild
+#t1998
+#c
+#index613273
+
+#*Accurate performance evaluation, modelling and prediction of a message passing simulation code based on middleware
+#@Michela Taufer,Thomas Stricker
+#t1998
+#cProceedings of the 1998 ACM/IEEE conference on Supercomputing (CDROM)
+#index613274
+#%357387
+#!In distributed and vectorized computing there is a large number of highly different supercomputing platforms an application could run on. Therefore most traditional parallel codes are ill equipped to collect data about their resource usage or their behavior at run time and the corresponding data are rarely published and few scientists attack the planning of an application and its platform systematically. As an improvement over the current state of the art, we propose an integrated approach to performance evaluation, modeling and prediction for different platforms. Our approach uses a combination of analytical modeling and systematically designed experimentation with full application runs, reduced application kernels and some benchmarks. We studied our methodology of performance assessment with Opal, an example code in molecular biology, developed at our institution to run on our four Cray J90 ``Classic" Vector SMPs. Besides a detailed assessment of performance achieved on the J90s, the primary goal of our study was to find the most suitable and most cost effective hardware platform for the application, in particular to check the suitability of this application for slow CoPs, SMP CoPs and fast CoPs, three flavors of Clusters of PCs built with off-the-shelf Intel Pentium processors. A performance assessment based on our model is much easier than porting and parallelizing the application for a new target machine and so we could easily obtain and include performance estimates for a T3E-900, a high end MPP system. The predicted execution times and speedup figures indicate that a well designed cluster of PCs achieves similar if not better performance than the J90 vector processors currently used and that the computational efficiency compares favorably to the T3E-900 for that particular application code.
+
+#*PhotoShop Web Magic: Volume 2 with Cdrom, 2nd edition
+#@Jeff Foster
+#t1997
+#c
+#index613275
+#!:Create buttons and switches that look like glass, wood, or even plastic. Make your type dance across your web page. Add inventive, eye-catching backgrounds, navigation bars, buttons, animations, and special effects that will keep visitors coming back to your site time and time again. Using easy-to-follow, step-by-step instructions and full-color examples, Photoshop Web Magic, Volume 2 is loaded with all new web techniques for creating floating graphics, cut-out type, a chasing type loop, notebook tile, relief logo, rollovers, glowing rods, an advertising banner, and much more!
+
+#*PKI: implementing and managing E-security
+#@
+#t2001
+#c
+#index613276
+#!Conduct online business safely by following the implementation techniques found inside this essential guide to PKI technology. Written by the experts at RSA Security, this book provides comprehensive coverage of this emerging technology that uses digital certificates to secure Internet transactions. Beginning with an introduction to cryptography, this book explains the technology that creates a public key infrastructure, and outlines the necessary steps for implementing PKI in both business-to-business and business-to-consumer environments. Also included is material on WAP, authorization systems, and cost of ownership, making this the most in-depth reference on PKI available.
+
+#*Windows 2000 Programming for Dummies with Cdrom
+#@Richard J. Simon
+#t1999
+#c
+#index613277
+#!:This encore to the successful Windows 98 Programming For Dummies is the ideal primer for people who want to create applications for the hot new Microsoft operating system - but have little or no previous experience. From interface basics to API's and Active X controls, it's all here - along with a CD-ROM packed with sample code.
+
+#*Popout prism: adding perceptual principles to overview+detail document interfaces
+#@Bongwon Suh,Allison Woodruff,Ruth Rosenholtz,Alyssa Glass
+#t2002
+#cProceedings of the SIGCHI conference on Human factors in computing systems: Changing our world, changing ourselves
+#index613278
+#%78689
+#%156194
+#%280117
+#%293499
+#%319887
+#%529614
+#%587207
+#!We present an overview+detail document interface that draws on perceptual principles to help users work with documents. Central to our approach is the use of improved document overviews. Our approach also includes novel highlighting in the full representation of documents, as well as techniques to help users smoothly transition from the overview to the full representation of the document. We present a specific implementation of our design for Web browsing. We also present a qualitative user study that indicates that our perceptual design principles are effective and that users prefer our interface to traditional "find" and highlighting techniques. Our user study additionally reveals interesting tasks and strategies supported in our framework that have implications for overview+detail document interfaces in general
+
+#*Groupware walkthrough: adding context to groupware usability evaluation
+#@David Pinelle,Carl Gutwin
+#t2002
+#cProceedings of the SIGCHI conference on Human factors in computing systems: Changing our world, changing ourselves
+#index613279
+#%76816
+#%81896
+#%232582
+#%381371
+#%530700
+#%531965
+#%609136
+#!Discount usability evaluation methods have recently been introduced as a way to assess groupware systems. However, one criticism of these techniques is that they do not make use of information about users and their work contexts. To address this problem, we developed groupware walkthrough, a new usability inspection technique for groupware. The technique is a substantive modification of cognitive walkthrough to include consideration for the complexities of teamwork. The two components of groupware walkthrough are a task model for identifying and analysing real-world collaborative tasks, and a walkthrough process for assessing a system's support for those tasks. Groupware walkthrough is a low-cost technique that can identify collaboration-specific usability problems and can find problems that would not be revealed through other inspection methods
+
+#*Agile software development
+#@Alistair Cockburn
+#t2002
+#cThe Addison Wesley Agile Software Development Series
+#index613280
+#!Software development paradigms are shifting. The development group's "team" ability, and the effects of the individual developer, become more important as organizations recognize that the traditional approach of increasing process pressure and overworking team members is not getting the job done. The pioneers of Agile methodologies question the preconceived processes within which development teams work. Rather than adding to the burden of the individual developer, Agile asks "how can we change the process so that the team is more productive, while also improving quality?" The answer is in learning to play the "game." Written for developers and project managers, Agile Software Development compares software development to a game. Team members play the game knowing that the ultimate goal is to win---always remembering what they have learned along the way, and always keeping in mind that they will never play the same way twice. Players must keep an open mind to different methodologies, and focus on the goal of developing quality software in a short cycle time.
+
+#*Risks to the public in computers and related systems
+#@Peter G. Neumann
+#t2001
+#cACM SIGSOFT Software Engineering Notes
+#index613281
+
+#*Mathematics for 3D game programming and computer graphics
+#@Eric Lengyel
+#t2001
+#c
+#index613282
+#!This book illustrates the mathematical concepts that a game programmer would need to develop a professional-quality 3D engine. Although the book is geared toward applications in game development, many of the topics appeal to general interests in 3D graphics. It starts at a fairly basic level in areas such as vector geometry and linear algebra, and then progresses to more advanced topics in 3D game programming such as illumination and visibility determination. Particular attention is given to derivation of key results, ensuring that the reader is not forced to endure gaps in the theory. The book assumes a working knowledge of trigonometry and calculus, but also includes sections that review the important tools used from these disciplines, such as trigonometry identities, differential equations, and the Taylor series.
+
+#*Keyboard Specialist
+#@Jack Rudman
+#t1997
+#c
+#index613283
+
+#*MicroStation Reference Guide 5.X, 3rd edition
+#@John Leavy
+#t1993
+#c
+#index613284
+
+#*The Complete Idiot's Pocket Guide to WordPerfect 6
+#@Kelly Oliver
+#t1993
+#c
+#index613285
+
+#*AutoCAD Instructor: Release 12, 1st edition
+#@James A. Leach
+#t1995
+#c
+#index613286
+
+#*Internet Resources for Engineers: A Practical Handbook for Students
+#@Jimin He
+#t1997
+#c
+#index613287
+
+#*Data base integrity and protection
+#@
+#t1977
+#cProceedings of the 1977 ACM SIGMOD international conference on Management of data
+#index613288
+
+#*The DES: An Extensive Documentation and Evaluation of the Data Encryption Standard
+#@Mikael J. Simovits
+#t1994
+#c
+#index613289
+#!:Text provides in one volume comprehensive information concerning the Data Encryption Standard. Chapters include: History of the DES and Fundamental Theory; Differential Cryptanalysis; Linear Cryptanalysis; plus various appendices.
+
+#*Sams Teach Yourself SQL in 10 Minutes (Older Edition), 1st edition
+#@Ben Forta
+#t1999
+#c
+#index613290
+#!From the Book:SQL is the most widely used database language. Whether you are an application developer, database administrator, Web application designer, or Microsoft Office user, a good working knowledge of SQL is an important part of interacting with databases. There are lots of SQL books out there. Some are actually very good. But they all have one thing in common: For most users they teach just too much information. Instead of teaching SQL itself, most books teach everything from database design and normalization to relational database theory and administrative concerns. Although those are all important topics, they are not of interest to most of us who just need to learn SQL. That is where this book comes in. Sams Teach Yourself SQL in 10 Minutes will teach you SQL, starting with simple data retrieval and working on to more complex topics including the use of joins, subqueries, and table constraints. You'll learn what you need to know methodically, systematically, and simply-in lessons that will each take 10 minutes or less to complete. So turn to Lesson 1, and get to work. You'll be writing world-class SQL in no time at all. Who is the Teach Yourself SQL book for? This book is for you if: You are new to SQL. You want to quickly learn how to get the most out of SQL. You want to do things quickly and easily in SQL without having to call someone for help. Conventions Used in This Book This book uses different typefaces to differentiate between code and regular English, and also to help you identify important concepts. Text that you type and text that should appear on your screen is presented in monospace type. It willlook like this to mimic the way text looks on your screen. Placeholders for variables and expressions appear in monospace italic font You should replace the placeholder with the specific value it represents. This arrow at the beginning of a line of code means that a single line of code is too long to fit on the printed page. Continue typing all characters after the as though they were part of the preceding line. New Term icons provide clear definitions of new, essential terms. The term appears in italic. The Input icon identifies code that you can type in yourself. It usually appears next to a listing. The Output icon highlights the output produced by running a program. It usually appears after a listing. The Analysis icon alerts you to the author's line-by-line analysis of a program.
+
+#*VB Script for the World Wide Web (Visual QuickStart Guide), 1st edition
+#@Paul B. Thurrott
+#t1997
+#c
+#index613291
+#!:Need to learn VBScript fast? Try a Visual QuickStart! Takes an easy, visual approach to teaching VBScript, where pictures guide you through the software and show you what to do; works like a reference book - you look up what you need and then get straight to work; no long-winded passages - concise, straightforward commentary explains what you need to know; and affordably priced, because buying a computer book shouldn't be an investment in itself.
+
+#*Integrating scenario-based and measurement-based software product assessment
+#@Lionel C. Briand,JÃ¼rgen WÃ¼st
+#t2001
+#cJournal of Systems and Software
+#index613292
+
+#*Understanding Personal Computer Hardware: Everything You Need to Know to Be an Informed PC User, PC Buyer, PC Upgrader, 1st edition
+#@Steven Roman
+#t1998
+#c
+#index613293
+#!:This book is for PC users who want to make more intelligent buying and upgrading decisions, or who would simply like to understand how their PCs work. If a picture book is not enough for you, but you don't have a degree in computer science or engineering, then this book is for you. In addition to carefully crafted explanations by a noted author, this book contains over 150 carefully drawn illustrations.
+
+#*Peter Norton's Introduction to Computers: PowerPoint for Windows 95 / with 3.5" Disk, 1st edition
+#@Peter Norton
+#t1996
+#c
+#index613294
+
+#*Librarians as Learners, Librarians as Teachers: The Diffusion of Internet Expertise in the Academic Library
+#@Lois Cherepon
+#t1999
+#c
+#index613295
+
+#*An Efficient Adaptive Scheduling Scheme for Distributed Memory Multicomputers
+#@Thyagaraj Thanalapati,Sivarama Dandamudi
+#t2001
+#cIEEE Transactions on Parallel and Distributed Systems
+#index613296
+#%82702
+#%213824
+#%228634
+#%446066
+#%448963
+#%459396
+#%524577
+#%532745
+#%588155
+#!Traditional multiprocessor scheduling schemes have been one of either space-sharing or time-sharing. Space-sharing schemes perform better than time-sharing at low to moderate system loads. However, they have a disadvantage of wasting processing power within partitions at medium to high system loads. Time sharing schemes tend to perform better at medium to high system loads. Almost all the scheduling schemes proposed so far have been tested under ad hoc workload considerations. In light of recent knowledge about workloads, it is imperative to develop an integrated scheduling scheme that combines the advantages of space- and time-sharing while overcoming their individual drawbacks. We propose such a scheduling scheme, called Hierarchical Scheduling Policy, which is efficient as well as general enough to accommodate multiple workloads. Simulation results indicate that our scheme significantly outperforms the best space- and time-sharing mechanisms at medium to high system loads even in the absence of knowledge regarding individual job characteristics.
+
+#*Microsoft Access 7.0 for Windows 95, 1st edition
+#@Rick Sullivan
+#t1997
+#c
+#index613297
+#!:Put the power of Microsoft Access to work for you with this unique learning guide! The clear, easy-to-follow instructions, illustrations, and hands-on exercises will have you using the program in only a few hours, even if you've never used a computer before.
+
+#*Coping with Dangers on the Internet
+#@Kevin F. Rothman
+#t2000
+#c
+#index613298
+
+#*Developing Client/Server Applications with Microsoft Access
+#@Ed Jones
+#t1996
+#c
+#index613299
+#!:Take the Fast Lane to Superior Client/Server Applications! When it comes to developing client/server applications,you won't find better help than Microsoft Access. This book/CD-ROM toolkit helps you fully exploit this versatile database manager. Up to date with Windows 95,it keeps you on top of the latest in object-oriented applications design,event-driven programming,and multiuser techniques. Coverage of Access 97Â—the current version of AccessÂ—and of Access 95 lets you exploit new features such as Performance Analyzer,Table Analyzer,and Wizards that make it easy to create and split databases. Use of OLE and DDE in Access applications is also discussed. You'll see how to: Port applications to the client/server environment; Design queries and use them as a data source for reports or forms; Produce Access reports and integrate them into an application; Create custom toolbars and hotkey assignments that are tied to macros; Set error traps and write error-handling code. Your CD-ROM provides the book's source code and many time-saving development tools. It includes shareware custom controls such as calendars,custom 3D controls,OCX controls,and custom combination box tools. Maximize your client/server performance NOW! Includes a time- and money-saving CD-ROM that's packed with valuable tools!
+
+#*Data Processing Project Management
+#@Thomas Robert Gildersleeve
+#t1974
+#c
+#index613300
+
+#*Practical Guide to Client/Server Computing, 1st edition
+#@Hugh W. Ryan
+#t1998
+#c
+#index613301
+#!:Practical Guide to Client/Server Computing, Second Edition, shows you how to make cost-effective decisions with forward-thinking advice you can act on today for every aspect of system implementation and maintenance. Accomplish more on time and within budget! Confidently rely on the Guide's 700+ pages of expert recommendations by Andersen Consulting's top-notch team, providing you with the methodologies, techniques, technologies, costs, and risks of client/server computing - everything from reengineering operations to developing and maintaining a firm's intranet.
+
+#*A unified architecture for the design and evaluation of wireless fair queueing algorithms
+#@Thyagarajan Nandagopal,Songwu Lu,Vaduvur Bharghavan
+#t2002
+#cWireless Networks
+#index613302
+#%81930
+#%93820
+#%477716
+#!Fair queueing in the wireless domain poses significant challenges due to unique issues in the wireless channel such as location-dependent and bursty channel errors. In this paper, we present a wireless fair service model that captures the scheduling requirements of wireless scheduling algorithms, and present a unified wireless fair queueing architecture in which scheduling algorithms can be designed to achieve wireless fair service. We map seven recently proposed wireless fair scheduling algorithms to the unified architecture, and compare their properties through simulation and analysis. We conclude that some of these algorithms achieve the properties of wireless fair service including short-term and long-term fairness, short-term and long-term throughput bounds, and tight delay bounds for channel access.
+
+#*Interactive Music Systems: Machine Listening and Composing
+#@Robert Rowe
+#t1992
+#c
+#index613303
+#!:This supplement to Interactive Music Systems contains audio and program examples that document a variety of systems and the music they produce. An extensive library of Macintosh software allows the user to experiment with or adapt existing interactive systems. Some parts of the library require the presence of underlying software environments, such as SrnallTalk, LISP, or Opcode's Max Language. The program discussed most extensively on interactive music systems, Robert Rowe's Cypher, will run on any Macintosh computer.
+
+#*The ABCs of PageMill 2 for Windows
+#@Asha Dornfest
+#t1997
+#c
+#index613304
+#!:The ABCs of PageMill 2 is an easy-to-use, task-oriented guide to Adobe's popular Web-publishing tool. Inside, detailed instructions and a straightforward layout guide you through the steps to creating a top-flight Web site. This book shows you how to tap PageMill's power so you can tackle any task with confidence. Inside, you'll learn to create hyperlinks, format text, add images, build an image map, set up tables, create interactive forms, use frames, implement multimedia effects, publish your Web site files, and much more. The enclosed CD features shareware that the author uses every day to create professional Web pages, including Paint Shop Pro, WSÃ·FTP LE (an FTP program), GIF Construction Set (a GIF animation tool), Adobe Acrobat Reader, WinZip, and QuickTime. The CD also contains all the tutorial files you'll need to build the sample site referred to in the book.
+
+#*A decoupling method for analysis of coupled RLC interconnects
+#@Jun Chen,Lei He
+#t2002
+#cProceedings of the 12th ACM Great Lakes symposium on VLSI
+#index613305
+#%74775
+#%284436
+#%317633
+#%320956
+#%322436
+#%606908
+#!In this paper we present an efficient decoupling model for on-chip interconnect analysis. This model decouples multiple RLC transmission lines into independent lines with separate drivers and receivers. Based on this model we propose an efficient algorithm to solve the far end responses of multiple RLC lines. Experiments show good matching between our decoupling model and SPICE simulation. Based on the model, we further develop an Nmax algorithm to quickly determine the noise amplitudes of far end responses. Experiments show that Nmax algorithm gives conservative but reasonably accurate results compared to SPICE simulation.
+
+#*Wide Area Network Performance and Optimization: Practical Strategies for Success, 1st edition
+#@Robert Lloyd-Evans
+#t1996
+#c
+#index613306
+#!:This book provides a practical approach to the optimization of performance in Wide Area Networks. It covers all the main communications protocols and technologies likely to be used over wide areas, from simple asynchronous modems to ATM. It describes the type of performance that can be expected, the parameters that affect performance and how they can be tuned. The treatment of network performance is non-mathematical for maximum accessibility and the range of protocols covered is wide for maximum reference value. This book is roughly structured on OSI layers, with chapters concentrating on link level protocols, network level, transport level, routing and applications; covers issues including: the optimization of packet window sizes, the treatment of mixed interactive and file transfer traffic, mixed protocol networks and prioritization and what to do when these factors involve trade-offs between processor and memory; covers applications ranging from the traditional IP and IPX to the modern MPEG compressed video standards; has separate chapters on network management and design tools, and on the use of public networks; and includes an appendix of mathematical techniques implicit in optimization. This book will interest networking professionals responsible for the design, implementation and operation of communication networks: network managers and operators, network designers, consultants, network engineers and technical support personnel. The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*Upgrading & Fixing PCs for Dummies, 4th edition
+#@Andy Rathbone
+#t1998
+#c
+#index613307
+#!:Revive your old PC in a jiffy - without spending a lot of cash! With easy-to-follow instructions from computer guru Andy Rathbone, you'll be able to fix nagging problems and install all the hardware you need - everything from additional memory for RAM-hungry software to SCSI devices to the fastest Internet connection.
+
+#*Managing the Enterprise Network: In the NetWare 4.X Environment
+#@C. Alan Greene
+#t1995
+#c
+#index613308
+#!:NetWare is Novell's operating system for Local and Wide Area Networks (Lan and Wan). This guide provides information, insights, and suggestions about these systems. The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*Structural Wood Detailing in CAD Format
+#@Kamal Afif Zayat
+#t1993
+#c
+#index613309
+
+#*Letterheads: One Hundred Years of Great Design, 1850 to 1950
+#@Leslie E. Cabarga
+#t1992
+#c
+#index613310
+
+#*Evaluating Frame Relay Technology for Your Organization
+#@Walter Goralski
+#t1996
+#c
+#index613311
+
+#*HCI & IA: information, interaction, interface and usability architects share deliverables
+#@Keith Instone,Lisa Chan,Peter Boersma,George Olsen
+#t2002
+#cCHI '02 extended abstracts on Human factors in computing systems
+#index613312
+
+#*Learn Microsoft Transaction Server Development Using Visual C++ 6.0 with Cdrom
+#@Nathan Wallace
+#t1999
+#c
+#index613313
+#!:The first and most complete reference to Microsoft's latest and greatest ActiveX database programming and management system--the Microsoft Transaction Server--this book details how to use MTS' DCOM capability to deploy complete, fully scalable applications and services across the Internet.
+
+#*Eudora Pro 4.0
+#@Charts Bar
+#t2000
+#c
+#index613314
+#!:For Windows 95 and NT. Everything you need to know about the newest version of this e-mail editing and management program in a clear, concise, easy to understanding format. All the steps: all the capabilities, all the "tricks of the trade" that have made our other computer charts the choice of thousands are laid out before you in our color-coded single panel chart so that you can use Eudora like a Pro! The ACM Portal is published by the Association for Computing Machinery. Copyright Â© 2010 ACM, Inc. Terms of Usage Privacy Policy Code of Ethics Contact Us Useful downloads: Adobe Acrobat QuickTime Windows Media Player Real Player
+
+#*Files with semantics
+#@N. Minsky
+#t1976
+#cProceedings of the 1976 ACM SIGMOD international conference on Management of data
+#index613315
+#%329080
+#!The conventional concept of file is reexamined, and found to be unsatisfactory, both as a linguistic concept in a programming language and as a tool for data processing. A new file concept is proposed which unlike the conventional file attempts to simulate an intelligent archivist rather than a filing cabinet.
+
+#*Video games challenge and motivate data structure students
+#@Robert F. Smith
+#t1992
+#cProceedings of the 30th annual Southeast regional conference
+#index613316
+#%475724
+#%532666
+#!At North Carolina Central University, our computer science majors complete one year of introductory programming before tackling more advanced data structures such as queues, stacks, heaps and graphs. Because of their lack of proficiency, the kinds of programs they have written in the past have been limited to simple problems such as computing grade point averages, and calculating the value of fictional inventories - pretty dry stuff. We set out to motivate our second year students with challenging, but fun programming assignments. Our work resulted in three video game projects that use many of the fundamental data structures, but are straightforward to implement in about two weeks, by a prepared student.
+
+#*Some practical considerations in the design of local computer networks
+#@Mark Paulk
+#t1982
+#cProceedings of the 20th annual Southeast regional conference
+#index613317
+#%459796
+#%622779
+#!This paper describes a network that uses standard links to connect heterogeneous types of node. The network is designed to facilitate interprocess communication among multiple processes. The ISO model is discussed, and the relationship between the network design and the standard is examined.
+
+#*Handbook of Server Management and Administration, 99th edition
+#@Kristin Marks
+#t1998
+#c
+#index613318
+#!:This single-volume desktop reference provides comprehensive information on all server issues featuring contributions from experts in the field. Engineers for system vendors, systems integrators, major resellers, end-users, and representatives from Hewlett-Packard, Novell, IBM, Compaq, Microsoft, and NEC share their ideas and experience on such topics as client/server distributed processing; the advent of more powerful, sophisticated servers; server dependability; server performance; and more.
+
+#*Rights and responsibilities in ACM publishing
+#@Richard Thomas Snodgrass
+#t2002
+#cCommunications of the ACM
+#index613319
+#!Progress on ACM's Becoming the Preferred Publisher
