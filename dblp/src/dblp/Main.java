@@ -4,10 +4,18 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) throws IOException {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter keyword for search: ");
+		String keyword = scan.nextLine();
+		System.out.println("Enter tier of paper desired: ");
+		String tier = scan.nextLine();
+		scan.close();
+		
 		File infile = new File("input");
 		String[] titles = new String[99];
 		String[] authors = new String[99];
@@ -51,5 +59,7 @@ public class Main {
 			System.out.println("Index: " + index[i]);
 			System.out.println();
 		}
+		System.out.println("Keyword: " + keyword);
+		System.out.println("Tier: " + tier);
 	}
 }
